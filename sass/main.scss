@@ -5,23 +5,49 @@
 }
 
 body {
-	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	height: 100vh;
 	font-family: 'Outfit', sans-serif;
 	background-color: hsl(217, 54%, 11%);
 }
 
 .card {
-	position: absolute;
-	top: 0;
-	height: 1100px;
-	width: 1000px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
 	background-color: hsl(216, 50%, 16%);
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 	border-radius: 15px;
+
+
+	&__img {
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	&__text {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__footer {
+		display: flex;
+		flex-direction: row;
+	}
 }
+
+
+
+
+
+
+
+
+
+
 
 // ## Colors
 
