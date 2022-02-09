@@ -216,6 +216,10 @@ body {
   color: white;
 }
 
+span:hover {
+  color: #00fff7;
+}
+
 /* .card__footer-p span:hover {
   color: #00fff7;
 } */
